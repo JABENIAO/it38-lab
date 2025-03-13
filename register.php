@@ -104,13 +104,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Sign Up</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body { font: 14px sans-serif; }
-        .wrapper { width: 360px; padding: 20px; margin: 0 auto; margin-top: 50px; }
+        body {
+            font: 14px sans-serif;
+        }
+
+        .wrapper {
+            width: 360px;
+            padding: 20px;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
     </style>
     <script>
         function toggleForms() {
@@ -126,6 +135,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     </script>
 </head>
+
 <body>
     <div class="container mt-5">
         <div class="row justify-content-center">
@@ -167,4 +177,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
     </div>
 </body>
+
 </html>
